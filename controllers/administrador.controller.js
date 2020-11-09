@@ -24,8 +24,12 @@ administradorCtrl.actualizarAdministrador = async (req, res) => {
 }
 
 administradorCtrl.editarEmpleado = async (req, res) => {
+   try {
     await Administrador.updateOne({'uid': req.params.uid}, {empleados: req.body})
     res.json({status: "Se ha actualizado correctamente"});
+   } catch {
+       
+   }
 }
 
 
