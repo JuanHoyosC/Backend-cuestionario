@@ -5,7 +5,7 @@ const SedesSchema = new Schema({
     "Campeche": { type: Array, required: true },
     "CDMX": { type: Array, required: true },
     "Chiapas": { type: Array, required: true },
-    "Ciudad de carmen": { type: Array, required: true },
+    "Ciudad del carmen": { type: Array, required: true },
     "Durango": { type: Array, required: true },
     "Hidalgo": { type: Array, required: true },
     "Naucalpan": { type: Array, required: true },
